@@ -3,7 +3,7 @@
 $server="localhost";
 $username="root";
 $password="";
-$db="bank_data";
+$db="bank";
 
 $conn=mysqli_connect($server,$username,$password,$db);
 

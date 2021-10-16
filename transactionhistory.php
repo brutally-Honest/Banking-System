@@ -5,11 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transaction History</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/table.css">
     <link rel="stylesheet" type="text/css" href="css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="css/table.css">
+
+    <style>
+        .table-striped tbody tr:nth-of-type(even) {
+    background-color: rgb(154, 195, 214) !important;}
+    </style>
 </head>
 
-<body style="background-color:#C9D8B6;">
+<body>
 
 <?php
   include 'navbar.php';
@@ -21,7 +26,7 @@
        <br>
        <div class="table-responsive-sm">
     <table class="table table-hover table-striped table-condensed table-bordered">
-        <thead>
+        <thead style="background: grey;">
             <tr>
                 <th class="text-center">S.No.</th>
                 <th class="text-center">Sender</th>

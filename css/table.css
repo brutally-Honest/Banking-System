@@ -9,15 +9,18 @@ h2{
 }
 table{
 	letter-spacing: 1.2px;
+	background:#2077e9;
 }
 td{
 	text-align: center;
 }
 button{
 	border:none;
-	background: #d9d9d9;
+	background: #2077e9;
     transition: 1s;
 }
+tr:nth-child(even){background-color: rgb(154, 195, 214) !important;}       
+
 @media only screen and (orientation: portrait){
 	*{
 		letter-spacing: 1px;

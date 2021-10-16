@@ -104,7 +104,7 @@ if(isset($_POST['submit']))
     </style>
 </head>
 
-<body style="background-color:#C9D8B6;">
+<body>
  
 <?php
   include 'navbar.php';
@@ -126,7 +126,7 @@ if(isset($_POST['submit']))
             <form method="post" name="tcredit" class="tabletext" ><br>
         <div>
             <table class="table table-striped table-condensed table-bordered">
-                <tr>
+                <tr style="background: grey;">
                     <th class="text-center">Id</th>
                     <th class="text-center">Name</th>
                     <th class="text-center">Email</th>

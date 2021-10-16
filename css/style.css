@@ -4,9 +4,9 @@
 	box-sizing: border-box;
 	font-family: sans-serif;
 }
-.intro{
-	background: #78DEC7;
-}
+
+
+tr:nth-child(even){background-color: rgb(154, 195, 214) !important;}
 h1{
 	color: #4C4B4B;
 	font-weight: bold;
@@ -32,8 +32,8 @@ button:hover{
 	background-color:#4C4B4B;
 }
 footer{
-	color:#586776;
-	background-color:#A7C4BC;
+	color:#000000;
+	background-color:#1ac3e0;
 	letter-spacing: 0.5px;
 }
 footer p{

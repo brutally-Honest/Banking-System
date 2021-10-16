@@ -20,39 +20,39 @@
   
       <div class="container-fluid">
       <!-- Introduction section -->
-            <div class="row intro py-1" style="background-color:#5E8B7E; height:400px;">
+            <div class="row intro py-1" style="background: rgba(50, 115, 220, 0.3);">
+            
               <div class="col-sm-12 col-md">
-                <div class="heading text-center my-5">
-                  <h3>Welcome to</h3><br>
-                  <h1 style="color:#fff;">SPARKS BANK OF INDIA</h1>
+                <div class="heading text-center " style="margin:120px 0 120px 0;">
+                  <h3>Welcome to</h3>
+                  <h1>BANK OF INTERNS</h1>
                 </div>
               </div>
-              <div class="col-sm-12 col-md img text-center" style=" margin-top:30px; ">
-                <img src="img/bank.jpeg" class="img-fluid pt-2" style="height:300px; width:300px; border-radius: 50%;">
+              <div class="col-sm-12 col-md img text-center">
+                <img src="img/b.png" class="img-fluid ">
               </div>
             </div>
 
       <!-- Activity section -->
-            <div class="row activity text-center" style="padding-top:60px; padding-left:30px; padding-right:30px; padding-down:50px; ">
+            <div class="row activity text-center">
+                  
+
+
+
                   <div class="col-md act">
-                    <img src="img/user.jpeg" class="img-fluid" style="height:200px; width:200px; border-radius: 50%;">
-                    <br><br>
-                    <a href="createuser.php"><button>Create new Account</button></a>
+                    <img src="img/transfer.png" class="img-fluid">
+                    <br>
+                    <a href="transfermoney.php"><button>View Customers for Transaction</button></a>
                   </div>
                   <div class="col-md act">
-                    <img src="img/transfer.jpeg" class="img-fluid" style="height:200px; width:200px;">
-                    <br><br>
-                    <a href="transfermoney.php"><button>Make a Transaction</button></a>
-                  </div>
-                  <div class="col-md act">
-                    <img src="img/history.jpeg" class="img-fluid" style="height:200px; width:200px;">
-                    <br><br>
+                    <img src="img/history.png" class="img-fluid">
+                    <br>
                     <a href="transactionhistory.php"><button>Transaction History</button></a>
                   </div>
             </div>
       </div>
-      <footer class="text-center mt-5 py-2" style="background-color:#A7C4BC">
-        <p style="padding: 30px 0px 15px;">&copy 2021. Made by <b>PARTHA SARATHI S</b> <br> The Sparks Foundation</p>
+      <footer class="text-center " style="background: rgba(50, 115, 220, 0.3); margin-top:100px; padding:25px 0 25px 0;">
+        <p>&copy 2021. Made by <b>KARTHIK HS</b> <br> The Sparks Foundation</p>
       </footer>
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
